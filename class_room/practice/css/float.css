@@ -1,0 +1,24 @@
+.parent {
+    overflow: hidden;
+    background-color: red;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 2px;
+    /* float: right; */
+}
+
+.foo {
+    float: right;
+}
+
+.doo {
+    float: left;
+}
+
+h2 {
+    background-color: blue;
+}
