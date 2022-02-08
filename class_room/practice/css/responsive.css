@@ -1,0 +1,62 @@
+li a {
+    color: #fff;
+}
+
+.parent {
+    background-color: brown;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media(min-width: 901px){
+    .parent {
+        overflow: hidden;
+    }
+
+    .foo {
+        float: left;
+    }
+
+    .doo {
+        float: right;
+    }
+
+    li {
+        display: inline-block;
+    }
+     
+    li + li {
+        margin-left: 40px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px) {
+    h2 {
+        color: red;
+    }
+    
+    li {
+        display: inline-block;
+    }
+     
+    li + li {
+        margin-left: 40px;
+    }
+}
+
+/* mobile 574 */
+/* tab or note book 575 768  */
+/* laptop 769 1024 */
+
+@media(max-width: 599px){
+    h2 {
+        color: rgb(0, 17, 255);
+    }
+
+    .parent {
+        text-align: center;
+    }
+}
