@@ -1,0 +1,124 @@
+/* .parent {
+    background-color: #7ed2f3;
+    overflow: hidden;
+
+}
+
+.child {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+
+    float: right;
+} */
+
+.parent {
+    /* height: 80vh; */
+    background-color: aquamarine;
+    display: flex;
+    /* flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap; */
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+}
+
+.child {
+    margin: 10px;
+    /* width: 100px; */
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+} 
+
+
+/* .child:nth-child(2){
+    height: 300px;
+}
+.child:nth-child(4){
+    height: 200px;
+} */
+
+
+
+h1 {
+    /* property : value: */
+    color: red;
+}
+
+.class {
+
+}
+
+#id {
+
+}
+
+.foo li {
+    color: red;
+}
+
+.foo > li {
+    background-color: green;
+}
+
+li + li {
+    margin-left: 30px;
+}
+
+li.one {
+    
+}
+
+.food > li{
+    color: red;
+}
+
+a[class]{
+    font-size: 30px;
+}
+
+a[class=google]{
+    color: red;
+}
+
+a:hover {
+    color: red;
+    transition: ease-out 2000ms;
+}
+
+.a, .b, .c {
+    color: blue;
+    font-weight: bolder;
+    border: 1px solid red;
+}
+
+
+p {
+    text-indent: 50px;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+
+/* h1 {
+    text-shadow: 10px 20px 30px rgba(0,0,0,0.6);
+} */
