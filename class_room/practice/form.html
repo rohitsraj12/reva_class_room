@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+
+    <form action="success.html" method="POST">
+
+        <label style="color: red;" for="name">name</label>
+        <input type="text" id="name" placeholder="Please enter first name" class="input" name="name" value="Andy" required>
+        <br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" minlength="4" maxlength="8" required>
+        <br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" required>
+        <br>
+
+        <label for="telephone">Phone</label>
+        <input type="tel" id="telephone">
+        <br>
+
+        <label for="color">color</label>
+        <input type="color" id="color">
+        <br>
+
+        <label for="date">date</label>
+        <input type="date" id="date" name="abc">
+        <br>
+
+        <label >date</label>
+        <input type="time">
+        <br>
+
+        <label>search</label>
+        <input type="search">
+        <br>
+
+        <label>number</label>
+        <input type="number">
+        <br>
+
+        <label>range</label>
+        <input type="range">
+        <br>
+
+        <label>url</label>
+        <input type="url">
+        <br>
+
+        <input type="hidden" name="username" value="hi">
+
+        <input type="file">
+
+        <!-- radio button -->
+        <label for="one">radio button 1</label>
+        <input type="radio" id="one" value="radio 1" name="match"/></br>
+
+        <label for="two">radio button 2</label>
+        <input type="radio" id="two" value="radio 2" name="match"/></br>
+
+        <!-- checkbox -->
+        <label for="check-one">checkbox button 1</label>
+        <input type="checkbox" id="check-one" value="checkbox 1" name="box"/></br>
+        <label for="check-two">checkbox button 2</label>
+        <input type="checkbox" id="check-two" value="checkbox 2" name="box"/></br>
+        <label for="check-three">checkbox button 3</label>
+        <input type="checkbox"  id="check-three" value="checkbox 3" name="box"/></br>
+        <label for="check-four">checkbox button 4</label>
+        <input type="checkbox" id="check-four" value="checkbox 4" name="box"/></br></br>
+
+        <!-- select list -->
+        <select name="" id="">
+            <option value="">select number</option>
+            <option value="IN">INDIA</option>
+            <option value="US">USA</option>
+            <option value="UK">United Kingdm</option>
+          </select>
+        </br>
+        <label for="">message</label><br>
+        <textarea name="" id="" cols="80" rows="3"></textarea>
+        
+        <br>
+
+        <input type="submit">
+        <input type="button" value="save">
+        <input type="reset">
+
+    </form>
+
+
+    <form action="../../form-result.php" target="_blank">
+
+        <fieldset>
+      
+          <legend>Personal information</legend>
+      
+          <p>Full name: <input type="text" name="fullname"></p>
+      
+          <p>Address: <input type="text" name="address"></p>
+      
+          <p>Phone number: <input type="tel" name="phone"></p>
+      
+        </fieldset>
+      
+        <fieldset>
+      
+          <legend>Work information</legend>
+      
+          <p>Company: <input type="text" name="company"></p>
+      
+          <p>Address: <input type="text" name="workaddress"></p>
+      
+          <p>Phone number: <input type="tel" name="workphone"></p>
+      
+        </fieldset>
+      
+        <p><input type="submit" value="Send information"></p>
+      
+      </form>
+
+</body>
+</html>
