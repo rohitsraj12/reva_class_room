@@ -1,0 +1,52 @@
+
+.foo:first-child{
+    color: rgb(255, 38, 0);
+}
+
+.foo:last-child{
+    color: rgb(255, 166, 0);
+}
+
+.foo:nth-child(3){
+    background-color: red;
+}
+
+.doo:nth-child(odd){
+    background-color: aqua;
+}
+
+.doo:nth-child(even){
+    background-color: rgb(174, 0, 255);
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(71, 42, 165);
+}
+
+h1::after{
+   content: " - "; 
+}
+
+.foo {
+    font-size: 30px;
+}
+
+.foo::before {
+    content: "*";
+    color: red;
+}
+
+.foo::after {
+    content: ":-";
+    font-size: 50px;
+    color: blue;
+    padding-left: 30px;
+}
